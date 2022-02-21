@@ -31,6 +31,7 @@ td {
 }
 td:hover {
     color: white;
+    background-color: rgba(0, 0, 0, 0.15);
 }
 .img {
     width: 18px;
@@ -48,4 +49,7 @@ td a {
 }
 td a:hover {
     color: rgb(231, 0, 39)
+}
+td .vide:hover {
+    color: black;
 }
