@@ -48,7 +48,7 @@ td a {
     color: black;
 }
 td a:hover {
-    color: #ffffff;
+    color: red;
 }
 td .vide:hover {
     color: black;
