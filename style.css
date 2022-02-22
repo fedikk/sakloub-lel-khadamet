@@ -25,7 +25,7 @@ body {
 td {
     padding: 10px;
     display:inline-table;
-    width: 144px;
+    width: 143px;
     border: 2px solid black;
     text-align: center;
 }
@@ -48,7 +48,7 @@ td a {
     color: black;
 }
 td a:hover {
-    color: rgba(255,255,255,0.66);
+    color: rgba(255,255,255);
 }
 td .vide:hover {
     color: black;
