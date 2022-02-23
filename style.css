@@ -4,26 +4,76 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: gilroy;
+    color: black;
+    font-weight: 600;
+}
+html {
+    scroll-behavior:smooth ;
 }
 body {
-    background: url(images/back.jpg);
-    background-size: cover;
+    background: rgb(164,163,173);
+background: linear-gradient(0deg, rgba(164,163,173,1) 0%, rgba(127,0,245,1) 50%, rgba(46,163,221,1) 75%, rgba(46,163,221,1) 100%);
     cursor: pointer;
 }
 .intro {
     position: relative;
     padding: 20px;
-    left: 10%;
-    width: 80%;
+    width: 100%;
     height: 105vh;
-    background-color: rgba(126, 241, 111, 0.098);
+    background: url(images/slm.png);
+    background-position:center;
+    background-size: cover;
     color: white;
     text-align: left;
     align-items: center;
     padding-top: 12%;
     font-size: 20px ;
     font-family: Trebuchet;
-    margin-bottom: -75px;
+    margin-bottom: 50px;
+}
+.sectionet {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    align-items: center;
+
+}
+.sectionet1 {
+    position: relative;
+    display:inline-flex;
+    bottom: 34%;
+    left: 17%;
+    width: 200px;
+    height: 180px;  
+    align-items: center;
+
+}
+.mpbtn {
+    position: relative;
+    width: 150px;
+    margin-left: 20px;
+}
+span {
+    margin-left: 50px;
+    margin-top: -13px;
+    display: flex;
+    width: 100px;
+    text-align: center;
+    padding-left: 10px;
+}
+.intro2 {
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    height: 105vh;
+    color: white;
+    text-align: left;
+    align-items: center;
+    padding-top: 12%;
+    font-size: 20px ;
+    font-family: Trebuchet;
+    margin-bottom: 50px;
+
 }
 .titre {
     position: absolute;
@@ -31,7 +81,7 @@ body {
     margin-left: 10%;
 }
 
-.mp {
+.mp ,.pc {
     position: relative;
     margin-top: 5%;
     width: 100%;
@@ -91,4 +141,33 @@ td a {
 }
 td a:hover {
     color: #ffffff;
+}
+.ktiba {
+    position: relative;
+    left: 54%;
+    text-align: center;
+    bottom: 70%;
+    width: 500px;
+    padding: 20px;
+}
+ul {
+    width: 60px;
+    padding: 20px;
+    align-items: center;
+    position: relative;
+    left: 96.5%;
+    bottom: 130%;
+    list-style: none;
+}
+ul li {
+    margin-bottom: 20px;
+}
+ul li i {
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+}
+ul li i:hover {
+    color: white;
+    transform: scale(2);
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
 }
